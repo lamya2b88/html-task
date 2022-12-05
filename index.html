@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/jpg" href="form.png" />
+    <title>First Form</title>
+  </head>
+  <body>
+    <fieldset>
+      <!--title page-->
+      <header><h1>Basic HTML Form</h1></header>
+      <main>
+        <form>
+          <!--Input section first and last name-->
+          <fieldset>
+            <legend>Name</legend>
+            <section>
+              <br />
+              <article>First Name</article>
+              <input type="text" />
+            </section>
+            <br />
+            <section>
+              <article>Last Name</article>
+              <input type="text" />
+            </section>
+            <br />
+          </fieldset>
+
+          <!--Input section Other Questions-->
+          <fieldset>
+            <legend>Other Questions</legend>
+            <br />
+            <section>
+              Choose a drink: <br />
+              <input type="radio" name="r" />coffe <br />
+              <input type="radio" name="r" checked />tea <br />
+              <input type="radio" name="r" />hot choclate
+            </section>
+            <br />
+            <section>
+              <article>What ice cream do you like?</article>
+              <input type="checkbox" /> Choclate <br />
+              <input type="checkbox" /> Choclate Pudding <br />
+              <input type="checkbox" checked /> Choclate Peanut Butter<br />
+              <input type="checkbox" /> Vanilla <br />
+              <input type="checkbox" /> Strawberry <br />
+            </section>
+            <br />
+            <section>
+              <article>Select a school:</article>
+              <select style="width: 150px">
+                <option>Harvard</option>
+                <option>Oxford</option>
+              </select>
+            </section>
+            <br />
+            <section>
+              <article>Please provide comments:</article>
+              <textarea
+                name="comments"
+                cols="32"
+                rows="5"
+                placeholder=""
+              ></textarea>
+            </section>
+          </fieldset>
+          <br />
+
+          <!--submit button-->
+          <button type="submit">Submit</button><br />
+        </form>
+      </main>
+      <br />
+    </fieldset>
+  </body>
+</html>
